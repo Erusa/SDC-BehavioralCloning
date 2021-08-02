@@ -7,7 +7,7 @@ https://github.com/udacity/self-driving-car-sim
 Repository includes:
 * model.py (script used to create and train the model)
 * model.h5 (a trained Keras model)
-* writeup.md (report writeup file)
+* writeup/writeup.md (report writeup file)
 * run1.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)
 * loss.png (training and validation loss)
 * drive.py and video.py (script to drive the car)(from Udacity)
