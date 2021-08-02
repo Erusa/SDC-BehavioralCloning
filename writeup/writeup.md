@@ -48,6 +48,7 @@ My model consists of:
 - Preprocessing of the Images: normalization through Keras lambda layer and cropping
 - Convolutional Neural Network:
 based on Nvidia CNN (+ Droput after second convolutional layer: 
+
 [image1]: cnn-architecture.png "cnn"
 ![alt_text][image1]
 
