@@ -1,7 +1,7 @@
 # SDC-BehavioralCloning
-My own Project from SDC Udacity Course, which drives autonomously a car, using deep neural networks.
+My own Project from SDC Udacity Course. Here I got a car drives autonomously, using deep neural networks (CNN).
 
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle. 
+In this project, I will use deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle. 
 Repository includes:
 * model.py (script used to create and train the model)
 * model.h5 (a trained Keras model)
