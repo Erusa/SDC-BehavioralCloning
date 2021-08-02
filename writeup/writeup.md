@@ -48,7 +48,7 @@ My model consists of:
 - Preprocessing of the Images: normalization through Keras lambda layer and cropping
 - Convolutional Neural Network:
 based on Nvidia CNN (+ Droput after second convolutional layer: 
-[image1]: writeup/cnn-architecture.png "cnn"
+[image1]: cnn-architecture.png "cnn"
 ![alt_text][image1]
 
 https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
@@ -140,7 +140,7 @@ To combat the overfitting, I modified the model so that I added a dropout layer 
 
 The final step was to run the simulator to see how well the car was driving around track one. There was one spots where the vehicle fell off the track... 
 
-[image3]: writeup/Away.png "problem"
+[image3]: Away.png "problem"
 ![alt_text][image3]
 
 To improve the driving behavior in this case, I drive one on this spot and use the information for training. After that, car drive well this spot but fell off nearby. It also use generator, just in case I need to record more data, but it was at the end not necessary.
